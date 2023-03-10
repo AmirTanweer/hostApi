@@ -3,8 +3,12 @@ const express=require('express');
 const app=express();
 const  PORT=process.env.PORT || 5000;
 const connectDB=require('./db/connect')
-
+const cors=require('cors')
 const products_routes=require('./routes/products')
+
+//enable CORS for all routes
+app.use(cors());
+
 
 app.get("/",(req,res)=>{
       res.send("hello, I am live")
