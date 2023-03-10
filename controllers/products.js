@@ -1,14 +1,18 @@
 const Product =require("../models/product")
 
 const getAllProducts= async (req,res)=>{
-    const {productname,description,sort,select}=req.query;
+    const {productname,description,sort,select,id}=req.query;
     const queryObject={};
     if(description){
         queryObject.company=description;
     }
     if(productname){
-        queryObject.name={$regex:productname, $options: "i"};
+        queryObject.productname={$regex:productname, $options: "i"};
     }
+    if(id){
+        queryObject.id=id;
+    }
+
     
     
     let apiData=Product.find(queryObject)
@@ -36,7 +40,7 @@ const getAllProducts= async (req,res)=>{
 };
 
 const getAllProductsTesting= async (req,res)=>{
-    const myData=await Product.find(req.query).select("productname")
+    const myData=await Product.find(req.query)
    
     
     res.status(200).json({myData});

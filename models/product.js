@@ -1,6 +1,12 @@
 // const { urlencoded } = require('express');
 const mongoose=require('mongoose');
-
+// const imageSchema = new mongoose.Schema({
+//     url: {
+//       type: String,
+//       required: true
+//     }
+    
+//   });
 const productSchema=new mongoose.Schema({
     id: {
         type:Number,
@@ -14,11 +20,10 @@ const productSchema=new mongoose.Schema({
         type: Number,
         required:[true,"price must be provided"]
     },
-    img:
-    {
-        data: Buffer,
-        contentType: String
-    },
+    img: {
+        type:String,
+        required:true
+      },
     description: {
         type: String,
         default: "this is description"
