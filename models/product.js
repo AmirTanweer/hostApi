@@ -1,34 +1,31 @@
+// const { urlencoded } = require('express');
 const mongoose=require('mongoose');
 
 const productSchema=new mongoose.Schema({
-    name: {
-        type:String,
+    id: {
+        type:Number,
         required:true,
     },
-    price:{
+    productname:{
+        type: String,
+        required: [true,"Name must be provided"],
+    },
+    price: {
         type: Number,
-        required: [true,"price must be provided"],
+        required:[true,"price must be provided"]
     },
-    featured: {
-        type: Boolean,
-        default: false,
+    img:
+    {
+        data: Buffer,
+        contentType: String
     },
-    rating :{
-        type :  Number,
-        default: 4.9,
-    },
-    createdAt: {
-        type: Date,
-        default:Date.now(),
+    description: {
+        type: String,
+        default: "this is description"
 
-    },
-    company:{
-        type:String,
-        enum:{
-            values:["apple","samsung","dell","mi"],
-            message:`{VALUE} is not supported`,
-        },
-    },
+    }
+    
+    
 });
 const Product = mongoose.model('Product', productSchema);
 module.exports=Product

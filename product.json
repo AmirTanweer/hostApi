@@ -1,29 +1,160 @@
-[
+
+ [
     {
-        "name":"iphone",
-        "price": 154,
-        "featured":true,
-        "company": "apple"
-    },
+    "id": 1,
+    "productname":"Ventilator with Bpm ",
+    "price":"550",
+    "img":"https://nevonprojects.com/wp-content/uploads/2021/06/bluetooth-gesture-speaker-web-main.jpg",
+    "description":"The gesture based speaker takes Bluetooth speake to the next level of modernization. The device makes use of 6 watt speaker with subwoofer along with arduino, battery charging board, Lidar sensor , audio amplifier IC, Bluetooth module and Battery Set. The system uses Bluetooth module to allow phones to connect to the speaker for audio input The speaker also allows for an AUX connection for audio input and a separate charging input connector for battery charging. The audio signal received is amplified by the amplifier IC for boost the signal without any data loss. This signal is now passed on to the speaker module to be converted to quality sound The Lidar sensor is mounted on top of the Bluetooth speaker. The input from sensor is processed by arduino and passed on to the controller to increase/reduce volume, switch song or turn on the speaker. This allows for a contactless speaker operation"
+    
+},
     {
-        "name":"iphone10",
-        "price": 1154,
-        "featured":true,
-       "company": "apple"
-    },
+    "id": 2,
+    "productname":"indoor Garden ",
+    "price":"900",
+    "img":"https://hackster.imgix.net/uploads/attachments/401869/indoor_garden_QqqAzNlRX2.jpg?auto=compress%2Cformat&w=900&h=675&fit=min",
+    "description":"Gardening in the modern age means making things more complicated and arduous, with electrons, bits, and bytes. Combining microcontrollers and gardening is a really popular idea. I think that’s because gardens have very simple inputs and outputs that are easy to wrap your head around. I guess people (myself included) see a notoriously simple and relaxed hobby and can’t help but feel compelled to overcomplicate it.In this project I will show you how to build a simpler veion of indoor garden using an Arduino dev board."
+    
+},
     {
-        "name":"watch",
-        "price": 204,
-        "company": "apple"
-    },
+    "id": 3,
+    "productname":"Third Eye for The Blind",
+    "price":"1200",
+    "img":"https://hackster.imgix.net/uploads/attachments/315304/third2beye2bfor2bthe2bblind_we34TitvS0.jpg?auto=compress%2Cformat&w=900&h=675&fit=min",
+    "description":"Third eye for people who are blind is an innovation which helps the blind people to navigate with speed and confidence by detecting the nearby obstacles using the help of ultrasonic waves and notify them with buzzer sound or vibration. They only need to wear this device as a band or cloth.According to WHO 39 million peoples are estimated as blind worldwide. They are suffering a lot of hardship in their daily life. The affected ones have been using the traditional white cane for many years which although being effective, still has a lot of disadvantages. Another way is, having a pet animal such as a dog, but it is really expensive. So the aim of the project is to develop a cheap and more efficient way to help visually impaired to navigate with greater comfort, speed and confidence."
+    
+},
     {
-        "name":"dell gaming",
-        "price": 501,
-        "company": "dell"
-    },
+    "id": 4,
+    "productname":"Health Band - A Smart Assistant for the Elderly © GPL3+",
+    "price":"1000",
+    "img":"https://hackster.imgix.net/uploads/attachments/355287/untitlehahad_XN9C46hHB1.jpg?auto=compress%2Cformat&w=900&h=675&fit=min",
+    "description":"Is your loved one old and living alone? No need to worry. Using Infineon's DPS310 pressure sensor we developed a virtual assistant that neatly fits around your arm in the form of a band, which takes care of this time consuming job leaving your love ones is safe hands! The elderly currently represent about 14.5 percent of the U.S. population, and by 2030 there will be about 74 million older individuals. As healthcare costs escalate and pressures are placed on healthcare institutions to provide adequate care, new solutions to managing senior health are imperative. After a quick search and having seen the shocking numbers this is our attempt to help the elderly!"
+    
+},
     {
-        "name":"redmi note 7",
-        "price": 180,
-        "company": "mi"
-    }
+    "id": 5,
+    "productname":"Automated Watering Plant",
+    "price":"700",
+    "img":"https://hackster.imgix.net/uploads/attachments/1374464/_R1iHtJM3pH.blob?auto=compress%2Cformat&w=900&h=675&fit=min",
+    "description":"In this project, we are talking about an automated system that includes whole watering system.An automated watering system is such a system that starts watering to plants by measuring soil moisture through soil moisture sensor. In this project we will have some extra benefits. We don’t need to control this watering, because the device will make this automatically when it will need it "
+    
+},
+    {
+    "id": 6,
+    "productname":"Control your light system with your voice",
+    "price":"800",
+    "img":"https://hackster.imgix.net/uploads/cover_image/file/60858/photo-original.jpg?auto=compress%2Cformat&w=900&h=675&fit=min",
+    "description":"the project idea was to proof that you can control your home lighting system using only your voice commands  so the 3 LEDs in the project represents different systems in our home as an example All you need for this project  1-Arduino uno 2-1sheeld 3-3 LEDs different colou then connect the circuit as shown below Open 1sheeld app and connect the app with your 1sheeld then open voice recognition  shield Press tap to speak : and then say play the 3 leds will turn on you can turn them off by saying stop Only turn the blue one by saying blue the yellow one by saying yellow and finally the green one by saying green "
+    
+},
+    {
+    "id": 7,
+    "productname":"Jacket for Visually Impaired",
+    "price":"700",
+    "img":"https://hackster.imgix.net/uploads/attachments/903885/blob_Kd7tb9DgTD.blob?auto=compress%2Cformat&w=900&h=675&fit=min",
+    "description":"Visual deficiency is characterized by the limitation or loss of the basic functions of the eye and visual system. The visually impaired may be the blind or low vision peon. To help people with this deficiency we study and every day we develop something to assist our brothe, this time we made a prototype that can be fixed on any clothing and will serve as a friend, warning the handicapped of objects in front of him, with that the user is not limited to just a single outfit with this technology.To run this project we use the Arduino Lilypad board, with a little creativity and an easy and affordable programming the project worked and we are here posting to share the solution to the Arduino community."
+    
+},
+    {
+    "id": 8,
+    "productname":"Arduino Data Glasses for My Multimeter",
+    "price":"650",
+    "img":"https://hackster.imgix.net/uploads/attachments/539855/FM515AJIWMQY5OL.jpg?auto=compress%2Cformat&w=900&h=675&fit=min",
+    "description":"The received Bluetooth data is displayed, on the OLED display. It's then reflected over the mirror, goes through the lens and you can see the picture in the little transparent acrylic glass.I made the data glasses work, but it was more a trial an error challenge. So I took a google crash course in optics.First of all I had to understand the difference between a real and a virtual image with lenses. Then a very important thing is, that a human eye can only focus an object at a distance of min 25cm. And all what I needed was this formula (1/f) = (1/o) + (1/i) where f is focal length of the lens o is object distance to the lens and I is the distance of the virtual image."
+    
+},
+    {
+    "id": 9,
+    "productname":"Unlock your door with a knock",
+    "price":"950",
+    "img":"https://hackster.imgix.net/uploads/cover_image/file/22994/projects_6bf0d56f-7a35-4d12-9c16-59abfb4dba53.png?auto=compress%2Cformat&w=900&h=675&fit=min",
+    "description":"For more security, We use AND gate. Since, any one can use the Push button shield in the application and try all the pins to open the door. So, we have to let the output from more than 1 Pin in the Arduino and then collect them all using AND gate."
+    
+},
+    {
+    "id": 10,
+    "productname":"Greenhouse",
+    "price":"1500",
+    "img":"https://projects.arduinocontent.cc/fd36b061-d370-499b-a445-826766f7250f.gif",
+    "description":"The purpose of this project is to build a greenhouse usingArduino. The greenhouse deals with plants in a totally automatic way. Inparticular, it is based on an Arduino Uno board, to which revolve aroundseveral sensors useful to analyze the conditions necessary for properoperation. These include the presence of the humidity and temperature sensor(TMP36), two photo-resistance, a water level and finally an PIR HC - SR501. Theoperation of this project is to detect a set of data using the sensorsdescribed above and based on the value they detect, different mechanisms willbe activated that can keep the plant healthy. "
+    
+},
+    {
+    "id": 11,
+    "productname":"Snacks Vending Machine Powered By Arduino",
+    "price":"2000",
+    "img":"https://projects.arduinocontent.cc/71566f77-aa1a-40f0-9f6f-830f2b6ad468.jpg",
+    "description":"This snack vending machine is a cool project. This project was actually finished in end of 2015.The aim of this project is to create  a vending machine, powered by arduino microcontroller, using any cheap  and easy to get components available in local store. Goals undefined accept certain amount of money (in coin), before let customer choosing their product, and of course delivering product undefined "
+    
+},
+    {
+    "id": 12,
+    "productname":"Central Heating Boiler Control Box",
+    "price":"3400",
+    "img":"https://projects.arduinocontent.cc/ee6acfd3-c316-43e8-9920-8144e1d86b6d.blob",
+    "description":"If you have a central heating with a gas boiler in your home, with a room thermostat in your living room, the thermostat switches off the boiler if the living room is warm enough. The boiler is switched off for the entire house then and it is impossible to heat other rooms in the house. So if you have an open fire place or a woodburning stove in your living room the rest of the house is cold when you use it. Your boiler supplier will normally solve this by installation of a weather dependent control or climatic control system. Such a system has disadvantages though, e.g. the high gas bill. And it works lousy in combination with a floor heating. The boiler control box is a better and cheaper solution. "
+    
+},
+    {
+    "id": 13,
+    "productname":"ECG Monitor",
+    "price":"300",
+    "img":"https://projects.arduinocontent.cc/c140fcbb-6dec-46df-9146-6c5989e1f1b9.blob",
+    "description":"A wearable device that can conduct ECG on the go and show it on mobile and is available at cheap cost.This device will help in vastly reducing the number of deaths from heart attack by showing the patient his/her live E.C.G. and if anything disruptive happens in the E.C.G. reading, the application will instantly notify the wearer and make a call to all the emergency contacts and will also call the ambulance in extreme situations.  "
+    
+},
+    {
+    "id": 14,
+    "productname":"Automated Urban Garden Controller",
+    "price":"1200",
+    "img":"https://projects.arduinocontent.cc/3fc58928-a8fc-43a9-b1f1-0e998b7eea0d.blob",
+    "description":"I love to garden, but I live in an apartment building. Luckily, I have a balcony, but it isn’t really large enough for a traditional vegetable garden. The most compact and efficient gardening technique I know of is hydroponics. I have used hydroponic gardening before, and it is amazing. It uses less water and less space than traditional gardening, while improving plant yield. The only bad thing about hydroponics is it is difficult to tell if the system is working correctly, because everything must be opaque. IoT to the rescue! Here is how I built an automated and IoT connected urban garden to maximize my green space and minimize dead plants! "
+    
+},
+    {
+    "id": 15,
+    "productname":"Fall Detection: A Human Activity Recognition (HAR) Application for Healthcare",
+    "price":"1700",
+    "img":"https://projects.arduinocontent.cc/29462ca8-da6e-4a50-a0f2-c9cc23cdf03d.jpg",
+    "description":"This project is used to monitor patient's activity and alerts if fall is detected. This project is submitted for Arduino x Kway Project competition.Human Activity Recognition (HAR) refers to the identification of the physical activities performed by individuals based on sensor data collected from devices such as smartphones, smartwatches, or other wearable devices. These activities can include simple movements like walking, sitting, or running, as well as more complex activities like playing sports or using tools."
+    
+},
+    {
+    "id": 16,
+    "productname":"MAT MAX Sanitizing Mat System",
+    "price":"1100",
+    "img":"https://projects.arduinocontent.cc/cd577f3f-d662-4a36-9e24-66d05abf0e76.blob",
+    "description":"Shoes cleaning system with an electronic mat that keeps the healthy distance, cleaning time and shoes pair count for maintenance."
+    
+},
+    {
+    "id": 17,
+    "productname":"32-Band Audio Spectrum Visualizer Analyzer",
+    "price":"1900",
+    "img":"https://projects.arduinocontent.cc/595cbf14-1083-44ec-8bd9-461e40fb841d.blob",
+    "description":"This project is for making a 32-band audio (music) frequency spectrum analyzer / visualizer using Arduino. Expected audience of this project is any audio enthusiast, student or a beginner who has basic understanding of electronic components, Arduino and C programming.Components used in this project are low cost items and are easy to assemble.Main features of this frequency spectrum analyzer,Uses easily installable libraries “arduinoFFT” and “MD_MAX72xx”Five different display modes are supported which can be switched with the push button,Both left and right channels of audio signal are mixed so that you don't miss any beat Prototype use 32x8 LED matrix display, this can be changed and easily modified Audio can be fed from headphone output or Line-out of music system / amplifier"
+    
+},
+    {
+    "id": 18,
+    "productname":"The Talking IoT Toaster",
+    "price":"1300",
+    "img":"https://projects.arduinocontent.cc/dbdae8e1-511f-40c5-9be1-1ca8ae721339.blob",
+    "description":"Initially this was started as a little fun project, simply to frustrate a friend, however it has been so much fun its worth sharing!What we wanted was a take on the classic 'Talkie Toaster' from the TV Show Red Dwarf, which would be able to constantly ask toast related questions every time someone was nearby.  We also wanted it to respond to being shouted at as well, so we added a few more parts to the project.It was also a chance to try out our PCB Etching, but this could be assembled on a breadboard / strip board just as easily.In the future we will further integrate it with other IoT peripherals and services, and this tutorial will get us well on our way..."
+    
+},
+    {
+    "id": 19,
+    "productname":"Satellite Tracker",
+    "price":"2300",
+    "img":"https://projects.arduinocontent.cc/022b7147-f45b-451e-9a9a-03411b7e5427.blob",
+    "description":"Keep up-to-date on the passing of your favourite satellites overhead with this 3D-printed, Arduino-controlled satellite tracker!This is a satellite tracker with a 3D-printed dish based off of a real satellite dish. Here it is in action: This dish will track any number of satellites in real-time as they fly overhead.  "
+    
+}
+   
+    
+   
+
+
 ]
